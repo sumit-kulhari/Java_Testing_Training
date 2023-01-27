@@ -11,7 +11,7 @@ public class TestingPower {
     public void testStatic(){
         String call = "Hello Everyone";
         String callexpectation = "Hello Everyone";
-        PowerMockito.mockStatic(Utility.class);
+//        PowerMockito.mockStatic(Utility.class);
 
 
     }
