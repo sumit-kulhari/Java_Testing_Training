@@ -14,7 +14,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 public class TestMockitoAddition {
-
+/*
+    What is mocking?
+    mocking is creating objects that simulate the behavior of real objects
+    Unlike stubs, mocks can be dynamically created from code at runtime
+    Mocks offer more functionality than stubs
+    we can verify method calls and a lot more other things
+    Mock creates mock object for a class or an interface
+*/
     @Mock
     private AdditionService service;
     @InjectMocks
