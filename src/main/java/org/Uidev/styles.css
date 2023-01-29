@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+}
+h1 {
+    color: blue;
+}
+a:link {
+    color: brown;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: orange;
+}
+p {
+    color: brown;
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
