@@ -3,14 +3,6 @@ package org.mokito;
 public class Division {
     DivisionService service;
 
-    public DivisionService getService() {
-        return service;
-    }
-
-    public void setService(DivisionService service) {
-        this.service = service;
-    }
-
     public Division(DivisionService service) {
         this.service = service;
     }
