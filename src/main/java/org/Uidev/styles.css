@@ -14,9 +14,19 @@ a:hover {
     color: orange;
 }
 p {
-    color: brown;
+    color: darkorange;
     font-style: italic;
 }
 .underline {
     text-decoration: underline;
+}
+
+body {
+    background-image: url("pexels-pixabay-417173.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.modi {
+    color: darkorange;
 }
