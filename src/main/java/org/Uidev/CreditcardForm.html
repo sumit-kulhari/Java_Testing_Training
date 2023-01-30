@@ -6,14 +6,14 @@
 </head>
 <body style="background-color: aliceblue">
     <center><h1>Apply For Credit Card</h1></center>
-    <form method="post">
+    <form name="myForm" onsubmit="return confirm_form()" method="post">
     <label for="fname">First name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-    <input type="text" id="fname" name="fname">
+    <input type="text" id="fname" name="fname" maxlength="15">
     <br>
     <label for="lname">Last name:&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-    <input type="text" id="lname" name="lname">
+    <input type="text" id="lname" name="lname" maxlength="15">
     <br>
     <label for="address">Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
@@ -31,14 +31,14 @@
         <option value="French">French</option>
     </select>
     <br>
-    <label for="gender">Sex&nbsp;&nbsp;&nbsp;&nbsp;
+    <label >Sex&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-    <input type="radio" id="gender" name="gender">
-    <label for="gender">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label >Male</label>
     <input type="radio" id="female" name="gender" >
     <label for="female">Female</label><br>
-    <label for="hobbies">Hobbies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label>Hobbies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input type="checkbox" id="dancing" name="Dancing" value="Dancing">
@@ -50,8 +50,9 @@
         <label for="sport">Sports</label>
     <input type="checkbox" id="other" name="Other" value="other">
         <label for="other" >Others</label><br><br><br>
-        <input type="submit" value="Submit" style="margin-left: 10%"><br><br><br>
+        <input type="submit" value="Submit"  style="margin-left: 10%"><br><br><br>
         <input type="reset" value="Reset" style="margin-left: 10%"><br><br><br>
     </form>
+    <script src="confirmform.js"></script>
 </body>
 </html>
